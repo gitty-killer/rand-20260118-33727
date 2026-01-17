@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "study_block-01",
+      "name": "study_block_01",
+      "category": "math",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "study_block-02",
+      "name": "study_block_02",
+      "category": "science",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "study_block-03",
+      "name": "study_block_03",
+      "category": "language",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "study_block-04",
+      "name": "study_block_04",
+      "category": "arts",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "study_block-05",
+      "name": "study_block_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "study_block-06",
+      "name": "study_block_06",
+      "category": "science",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "study_block-07",
+      "name": "study_block_07",
+      "category": "language",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "study_block-08",
+      "name": "study_block_08",
+      "category": "arts",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "study_block-09",
+      "name": "study_block_09",
+      "category": "math",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "study_block-10",
+      "name": "study_block_10",
+      "category": "science",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "study_block-11",
+      "name": "study_block_11",
+      "category": "language",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "study_block-12",
+      "name": "study_block_12",
+      "category": "arts",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "study_block-12",
+    "issue_count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "project_title": "Study Schedule",
+  "goal": "Track study blocks and highlight weak subjects.",
+  "entity_name": "study_block",
+  "amount_label": "hours",
+  "score_label": "focus_score",
+  "categories": [
+    "math",
+    "science",
+    "language",
+    "arts"
+  ]
+}
